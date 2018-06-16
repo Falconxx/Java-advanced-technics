@@ -1,1 +1,1 @@
-# Java-advanced-technics
+# RMI_Game
