@@ -1,0 +1,114 @@
+.table-row-cell:last-line {
+	-fx-background-color: rgba(255, 255, 255, .80);
+	-fx-text-fill: blue;
+	-fx-border-radius: 8;
+	-fx-font-weight: bold ;
+	-fx-background: ivory ;
+}
+
+#przedmiotyTable{
+	-fx-background-color: black;
+}
+
+#nameColumn{
+	-fx-font-size: 15px ;
+	-fx-background-color: rgba(255, 255, 255, .80);
+	-fx-text-fill: #AB4642;
+	-fx-padding: 6 6 6 6;
+	-fx-border-radius: 8;
+	-fx-font-weight: bold ;
+	-fx-background: ivory ;
+}
+
+#cenaColumn{
+	-fx-font-size: 15px ;
+	-fx-background-color: rgba(255, 255, 255, .80);
+	-fx-text-fill: green;
+	-fx-padding: 6 6 6 6;
+	-fx-border-radius: 8;
+	-fx-font-weight: bold ;
+	-fx-background: ivory ;
+}
+
+#iloscColumn{
+	-fx-font-size: 15px ;
+	-fx-background-color: rgba(255, 255, 255, .80);
+	-fx-text-fill: #A16946;
+	-fx-padding: 6 6 6 6;
+	-fx-border-radius: 8;
+	-fx-font-weight: bold ;
+	-fx-background: ivory ;
+}
+
+#zapotrzebowanieColumn{
+	-fx-font-size: 15px ;
+	-fx-background-color: rgba(255, 255, 255, .80);
+	-fx-text-fill: red;
+	-fx-padding: 6 6 6 6;
+	-fx-border-radius: 8;
+	-fx-font-weight: bold ;
+	-fx-background: ivory ;
+}
+#priorytetColumn{
+	-fx-font-size: 15px ;
+	-fx-background-color: rgba(255, 255, 255, .80);
+	-fx-text-fill: orange;
+	-fx-padding: 6 6 6 6;
+	-fx-border-radius: 8;
+	-fx-font-weight: bold ;
+	-fx-background: ivory ;
+}
+
+#rozmiarColumn{
+	-fx-font-size: 15px ;
+	-fx-background-color: rgba(255, 255, 255, .80);
+	-fx-text-fill: yellow;
+	-fx-padding: 6 6 6 6;
+	-fx-border-radius: 8;
+	-fx-font-weight: bold ;
+	-fx-background: ivory ;
+}
+
+#EN{
+	-fx-background-color: blue;
+	-fx-text-fill: #FFFFFF;
+	-fx-background-radius: 10;
+
+}
+
+#PL{
+	-fx-background-color: red;
+	-fx-text-fill: #FFFFFF;
+	-fx-background-radius: 10;
+
+}
+
+#OBRAZ{
+	-fx-background-color: #DC9656;
+	-fx-text-fill: #FFFFFF;
+	-fx-background-radius: 10;
+}
+
+#ADD{
+	-fx-background-color: #181818;
+	-fx-text-fill: #FFFFFF;
+	-fx-background-radius: 10;
+}
+
+#DELETE{
+	-fx-background-color: #B8B8B8;
+	-fx-text-fill: #FFFFFF;
+	-fx-background-radius: 10;
+}
+
+#ZAPIS{
+	-fx-background-color: #A1B56C;
+	-fx-text-fill: #FFFFFF;
+	-fx-background-radius: 10;
+}
+
+#ODCZYT{
+	-fx-background-color: green;
+	-fx-text-fill: #FFFFFF;
+	-fx-background-radius: 10;
+}

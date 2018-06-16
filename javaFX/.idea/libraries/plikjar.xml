@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="plikjar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plikjar.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

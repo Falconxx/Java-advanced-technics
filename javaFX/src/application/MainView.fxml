@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="100.0" minWidth="100.0" prefHeight="475.0" prefWidth="586.5" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <TableView fx:id="przedmiotyTable" layoutX="2.0" layoutY="4.0" prefHeight="297.0" prefWidth="586.5">
+         <columns>
+            <TableColumn fx:id="nameColumn" editable="false" onEditStart="#editGrade" prefWidth="120.0" text="%item.name" />
+            <TableColumn fx:id="cenaColumn" onEditCommit="#editGrade" prefWidth="70.0" text="%price" />
+            <TableColumn fx:id="iloscColumn" onEditCommit="#editGrade" prefWidth="70.0" text="%count" />
+            <TableColumn fx:id="zapotrzebowanieColumn" onEditCommit="#editGrade" prefWidth="165.0" text="%Need" />
+            <TableColumn fx:id="rozmiarColumn" onEditCommit="#editGrade" prefWidth="70.0" text="%size" />
+            <TableColumn fx:id="priorytetColumn" onEditCommit="#editGrade" prefWidth="90.0" text="%image" />
+         </columns>
+      </TableView>
+      <Button fx:id="newPrzedmiotButton" layoutX="119.0" layoutY="414.0" mnemonicParsing="false" onAction="#addNewPrzedmiot" text="%add.item" />
+      <Button fx:id="removeButton" layoutX="245.0" layoutY="414.0" mnemonicParsing="false" onAction="#removePrzedmiot" text="%delete.item" />
+      <TextField fx:id="newPrzedmiotIndex" layoutX="175.25" layoutY="330.0" prefHeight="50.0" prefWidth="250.0" />
+      <Button layoutX="407.0" layoutY="414.0" mnemonicParsing="false" onAction="#serializeData" text="%from.file" />
+      <Button layoutX="492.0" layoutY="414.0" mnemonicParsing="false" onAction="#deserializeData" text="%to.file" />
+   </children>
+</AnchorPane>

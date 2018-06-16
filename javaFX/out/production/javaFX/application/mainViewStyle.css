@@ -1,0 +1,4 @@
+.table-row-cell:last-line {
+	-fx-font-weight: bold ;
+	-fx-background: ivory ;
+}
