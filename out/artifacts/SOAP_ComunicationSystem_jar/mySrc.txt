@@ -1,0 +1,2 @@
+java -jar SOAP_SOAP_ComunicationSystem.jar Z1 9000 9001
+java -jar SOAP_SOAP_ComunicationSystem.jar Z2 9001 9000
