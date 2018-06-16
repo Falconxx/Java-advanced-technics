@@ -22,7 +22,7 @@ public class Game {
 
         try {
             difficultyEngine = new ScriptEngineManager().getEngineByName("nashorn");
-            difficultyEngine.eval(new FileReader("src/smartscript.js"));
+            difficultyEngine.eval(new FileReader("src/hard.js"));
             invocable = (Invocable) difficultyEngine;
         } catch (Exception e) {
         }
@@ -42,7 +42,7 @@ public class Game {
                 String choice = scanner.nextLine();
 
                 if (choice.equals("1")) {
-                    System.out.println("Enter name of script written in JS that represents AI (dumbscript.js or smartscript.js): ");
+                    System.out.println("Enter name of script written in JS that represents AI (for example easy.js or hard.js): ");
                     String choice2 = scanner.nextLine();
                     g.difficultyEngine.eval(new FileReader("src/" + choice2));
                     g.invocable = (Invocable) g.difficultyEngine;
